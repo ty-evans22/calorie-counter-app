@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFB3B1B1"
+    tools:context=".IngredientAdder">
+
+  <TextView
+      android:id="@+id/ingredientAdder"
+      android:layout_width="224dp"
+      android:layout_height="41dp"
+      android:text="@string/enter_ingredient_to_add"
+      android:textColor="#000000"
+      android:textSize="20sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.234" />
+
+  <Button
+      android:id="@+id/IngredientAdderBtn"
+      android:layout_width="173dp"
+      android:layout_height="57dp"
+      android:layout_marginStart="155dp"
+      android:layout_marginEnd="162dp"
+      android:fontFamily="sans-serif-medium"
+      android:text="@string/add"
+      android:textAppearance="@style/TextAppearance.AppCompat.Large"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.455"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.544" />
+
+  <Button
+      android:id="@+id/button2"
+      android:layout_width="202dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="229dp"
+      android:layout_marginEnd="20dp"
+      android:layout_marginBottom="13dp"
+      android:text="@string/ingredients_list"
+
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.9"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/IngredientAdderBtn"
+      app:layout_constraintVertical_bias="0.987" />
+
+  <EditText
+      android:id="@+id/editTextiName"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="101dp"
+      android:layout_marginEnd="101dp"
+      android:ems="10"
+      android:inputType="textPersonName"
+      android:text="Name"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.311" />
+
+  <EditText
+      android:id="@+id/editTextCalPerG"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:inputType="number"
+      android:text="Cals Per 100 Grams"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.497"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.397" />
+
+  <TextView
+      android:id="@+id/textView"
+      android:layout_width="343dp"
+      android:layout_height="44dp"
+      android:fontFamily="monospace"
+      android:text="Ingredient Adder"
+      android:textAppearance="@style/TextAppearance.AppCompat.Large"
+      android:textColor="#050505"
+      android:textSize="34sp"
+      app:layout_constraintBottom_toBottomOf="@+id/button2"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.514"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.008" />
+
+  <Button
+      android:id="@+id/backfromadder"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Back"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.107"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.973" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

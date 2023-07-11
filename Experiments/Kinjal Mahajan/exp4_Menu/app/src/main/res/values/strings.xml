@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Menu_exp4</string>
+
+    <string-array name="names">
+        <item>""</item>
+        <item>Meals</item>
+        <item>Calories consumed today</item>
+        <item>Calorie Counter</item>
+    </string-array>
+</resources>

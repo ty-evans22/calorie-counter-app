@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">exp5</string>
+    <string-array name="Names">
+        <item>Select one:</item>
+        <item> Name</item>
+        <item> Phone Number</item>
+        <item> Email</item>
+    </string-array>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFB3B1B1"
+    tools:context=".IngredientRetriever">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="281dp"
+        android:layout_height="487dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="90dp"
+        android:fontFamily="serif"
+        android:text="@string/ingredient_list"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintVertical_bias="0.766" />
+
+    <Button
+        android:id="@+id/BackToIngredients"
+        android:layout_width="99dp"
+        android:layout_height="54dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="600dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Back"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="14dp"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Ingredient List"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="55dp"
+        app:layout_constraintVertical_bias="0.01" />
+</RelativeLayout>
